@@ -1,0 +1,147 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+h1{
+    font-family: 'Sacramento', cursive;
+    font-size: 3.75rem;
+    color: #66bfbf;    
+}
+h2{
+    color: #11999e;
+    line-height: 2;
+}
+h3{
+    color: #11999e;
+    line-height: 2;
+}
+.head_content p{
+    color: #66bfbf;
+}
+.head_content p,h2,h3{
+    font-family: 'Merriweather', serif;
+}
+.top-container{
+    background-color: #dbf3ee;
+    padding-top: 100px;
+}
+.middle-section{
+    width: 40%;
+    margin: auto;
+}
+.middle-container{
+    background-image: linear-gradient(white,#E8F9FD,white,#E8F9FD,white);
+}
+.mountain{
+    width: 37rem;
+}
+@media only screen and (max-width:700px) {
+    .middle-section{
+        width: 60%;
+        margin: auto;
+    } 
+    .mountain{
+        width: 20rem;
+    }
+}
+@media only screen and (max-width:450px) {
+    h1{
+        font-family: 'Sacramento', cursive;
+        font-size: 3rem;
+    }
+    .head_content p,h2,h3{
+        font-family: 'Merriweather', serif;
+        font-size: 1rem;
+    }
+}
+.bottom-section{
+   width: 70%;
+   margin: auto;
+  
+}
+.bottom-container{
+    padding-top: 20px;
+    width: 100%;
+    
+}
+.head_content{
+    display: inline-block;
+    margin: 15px 50px;
+}
+.left-cloud{
+    position: absolute;
+    top: 250px;
+    left: 30vw;
+    animation: cloud1 15s linear infinite alternate;
+}
+@keyframes cloud1 {
+    from{
+        left: 60vw;
+    }
+    to{
+        left: 24vw;
+    }
+    
+}
+.right-cloud{
+    position: absolute;
+    right: 30vw;
+    top: 45px;
+    animation: cloud2 12s linear infinite alternate;
+}
+@keyframes cloud2 {
+    from{
+        right: 60vw;
+    }
+    to{
+        right: 24vw;
+    }
+}
+.profile{
+    text-align: center;
+}
+.profile-img{
+    width: 13.5em;
+    margin-top: 70px;
+}
+.skill-img{
+    border-radius: 50%;
+    width: 11.25em;
+    margin-bottom: 20px ;
+}
+hr{
+    border-style: none;
+    width:40%;
+    height: 1px;
+    border-top: 12px dotted wheat;
+    margin: 50px auto;
+}
+.skill-row{
+    margin: 40px auto;
+}
+.btn{
+    margin: 15px 0px;
+    /* border-radius: 10%; */
+}
+.btn a{
+    text-decoration: none;
+    font-weight: 600;
+    color: #11999e;
+    border: 1.2px solid black;
+    padding: 3px 10px;
+    transition: 0.5s;
+    font-size: 20px;
+}
+.btn a:hover{
+    background-color:#11999e ;
+    color: #FAF5E4;
+    font-size: 20.4px;
+    border-color: #FAF5E4;
+}
+i{
+    padding: 5px;
+    color: #11999e;
+}
+
